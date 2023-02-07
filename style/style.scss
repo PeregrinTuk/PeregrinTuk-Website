@@ -1,0 +1,17 @@
+@import "./reset";
+// -Temporary-----------------
+@import "./wip";
+@import "./styledeprecated";
+// ---------------------------
+@import "./var";
+@import "./header";
+@import "./animations";
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /*****/
+    overflow: hidden;
+    /*****/
+}
