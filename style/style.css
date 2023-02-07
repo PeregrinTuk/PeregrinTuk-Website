@@ -325,20 +325,18 @@ nav{
 	top: 10vh;
 	left: 50%;
 
+	display: flex;
+	flex-flow: column nowrap;
+	align-content: center;
+	align-items: center;
+
 	transform: translateX(-50%);
 
 	transition: all 1s;
 }
 
 .foto img{
-	width: 650px;
-
-	position: absolute;
-	/*top: -8vh;*/
-	left: 50%;
-	bottom: calc(-80px - 3vh);
-
-	transform: translateX(-50%);
+	width: inherit;
 
 	transition: all 1s;
 }
@@ -612,10 +610,10 @@ main{
 	}
 
 	.foto img{
-		width: 500px;
+		/* width: 500px;
 		bottom: calc(-90px - 3vh);
 
-		transform: translateX(-50%);
+		transform: translateX(-50%); */
 
 		transition: all 1s;
 	}
