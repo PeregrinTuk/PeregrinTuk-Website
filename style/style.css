@@ -95,28 +95,43 @@ table {
 /* - Nombre ---------------------- */
 /* ------------------------------- */
 h1 {
+  /* 
   width: 100%;
-  /* font-family: 'Dr Sugiyama', cursive; */
+  font-family: 'Dr Sugiyama', cursive;
+  */
   font-family: "Josefin Sans";
   font-size: 70px;
   font-weight: normal;
+  /*
+  letter-spacing: 3px;
   text-align: center;
+  */
   margin-bottom: calc(3px + 4vh);
+  /*
   position: relative;
   z-index: 40;
+
   transition: all 1s;
+  */
 }
 
 h2 {
+  /* 
   width: 100%;
+  */
   color: rgb(102, 102, 102);
   font-family: "Josefin Sans";
   font-size: 33px;
   letter-spacing: 1px;
+  /* 
   text-align: center;
+
   position: relative;
   z-index: 40;
+  // top: 55%;
+
   transition: all 1s;
+  */
 }
 
 h2::before {
@@ -584,6 +599,12 @@ header .my-name {
   width: inherit;
   max-width: inherit;
   margin-top: 50px;
+}
+header .my-name h1, header .my-name h2 {
+  text-align: center;
+  position: relative;
+  z-index: 40;
+  transition: all 1s;
 }
 header .my-photo {
   width: 450px;
