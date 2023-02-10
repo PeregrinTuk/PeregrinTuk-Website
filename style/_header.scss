@@ -23,6 +23,15 @@ header{
         max-width: inherit;
 
         margin-top: 50px;
+
+        h1, h2 {
+            text-align: center;
+
+            position: relative;
+            z-index: 40;
+        
+            transition: all 1s;
+        }
     }
 
     .my-photo {
