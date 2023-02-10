@@ -3,8 +3,8 @@ $(function(){
 	let $header = $("header");
 	let $main = $("main");
 	let $titulo = $(".titulo");
-	let $m_clara = $(".md_clara");
-	let $m_oscura = $(".md_oscura");
+	let $m_clara = $(".nav-backg-color");
+	let $m_oscura = $(".nav-backg-dark");
 	let $foto = $(".foto");
 	let $nav_menu = $("#nav_menu");
 	let $mn_hamburguesa = $(".mn_hamburguesa");
